@@ -10,7 +10,7 @@
 
 `개발기간: 24.10.14 ~ 24.11.21 (6주)`
 
-![image (21).png](Picture/blueLogo.png)
+![서비스 설명](https://github.com/user-attachments/assets/9d04755f-b97a-46b4-a893-b873c15033d3)
 
 
 # 목차
@@ -371,33 +371,17 @@ spec:
 ## 1. ERD
 ![ERD](https://i.imgur.com/FmmsHJ2.png)
 
-
 # 👨‍👨‍👧‍👦 팀원 구성
 
-### BackEnd
-|       고민호       |       박선홍       |
-|:------------------:|:-----------------:|
-| <img src="https://avatars.githubusercontent.com/u/101318473?v=4" width=100px alt="고민호"/> | <img src="https://avatars.githubusercontent.com/u/62554639?v=4" width=100px alt="박선홍"/> |
-| [고민호](https://github.com/MinhoKK) | [박선홍](https://github.com/chestnut1717) |
+|       고민호(BackEnd)       |       박선홍(BackEnd)       |       손지석(Infra)        |       남보우(Infra)        |
+|:------------------:|:-------------------:|:-----------------:|:------------------:|
+| <img src="https://avatars.githubusercontent.com/u/101318473?v=4" width=100px alt="고민호"/> | <img src="https://avatars.githubusercontent.com/u/62554639?v=4" width=100px alt="박선홍"/> | <img src="https://avatars.githubusercontent.com/u/105180696?v=4" width=100px alt="손지석"/> | <img src="https://avatars.githubusercontent.com/u/92447290?v=4" width=100px alt="남보우"/> |
+| [고민호](https://github.com/MinhoKK) | [박선홍](https://github.com/chestnut1717) | [손지석](https://github.com/sonjiseokk) | [남보우](https://github.com/Nbowow) |
 
-### Infra
-|       손지석       |       남보우       |
-|:------------------:|:-----------------:|
-| <img src="https://avatars.githubusercontent.com/u/105180696?v=4" width=100px alt="손지석"/> | <img src="https://avatars.githubusercontent.com/u/92447290?v=4" width=100px alt="남보우"/> |
-| [손지석](https://github.com/sonjiseokk) | [남보우](https://github.com/Nbowow) |
-
-### FrontEnd
-|       이명욱       |       임준희       |
-|:------------------:|:-----------------:|
-| <img src="https://avatars.githubusercontent.com/u/123948643?v=4" width=100px alt="이명욱"/> | <img src="https://avatars.githubusercontent.com/u/156316110?v=4" width=100px alt="임준희"/> |
-| [이명욱](https://github.com/LEEMYEONGUK) | [임준희](https://github.com/ljjunh) |
-
-### 기획
-|       박준엽       |
-|:------------------:|
-| <img src="https://avatars.githubusercontent.com/u/91084695?v=4" width=100px alt="박준엽"/> |
-| [박준엽](https://github.com/JuneYub) |
-
+|       이명욱(FrontEnd)      |       임준희(FrontEnd)      |       박준엽(기획)         |
+|:------------------:|:-------------------:|:-----------------:|
+| <img src="https://avatars.githubusercontent.com/u/123948643?v=4" width=100px alt="이명욱"/> | <img src="https://avatars.githubusercontent.com/u/156316110?v=4" width=100px alt="임준희"/> | <img src="https://avatars.githubusercontent.com/u/91084695?v=4" width=100px alt="박준엽"/> |
+| [이명욱](https://github.com/LEEMYEONGUK) | [임준희](https://github.com/ljjunh) | [박준엽](https://github.com/JuneYub) |
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" width="100%" >
