@@ -215,30 +215,31 @@ https://github.com/user-attachments/assets/8b02bdad-dfdf-4164-9f63-8914ff309622
 ## 1. 전체적인 아키텍쳐
 ![](https://i.imgur.com/1pffjb5.png)
 
-## 2. 공간 인덱스 조회
-![한투증 정보](https://github.com/user-attachments/assets/b85ea2b4-722f-4754-b1a7-1239c4e6d95d)
-### WebSocket
-> Websocket이란 ws 프로토콜을 기반으로 클라이언트와 서버 사이에 지속적인 양방향 연결 스트림을 만들어주는 기술입니다. 이는 stateless한 성질을 가지는 HTTP 일부 통신의 한계를 극복해 주는 것으로 서버는 클라이언트에 데이터를 실시간으로 전달할 수 있게 됩니다.
+## 2. 공간 인덱싱 성능 조회
+<img width="695" alt="공간데이터타입" src="https://github.com/user-attachments/assets/5959e7d9-0bfa-4830-82ea-0a4771d8b96b" />
 
-### Redis
-> Redis는 주로 애플리케이션 캐시나 빠른 응답 속도를 가진 데이터베이스로 사용되는 오픈 소스 In-Memory NoSQL 저장소 입니다.
+### 공간 인덱스란?
+> 공간 데이터는 **위치 정보**를 저장할 수 있는 데이터 타입입니다.  
+MySQL은 다음과 같은 공간 데이터 타입과 함수들을 지원하여 효율적인 데이터 조회를 가능하게 합니다.
 
-### Spring Scheduler
-> Spring Scheduler는 특정 작업을 지정된 주기로 자동 실행하도록 설정할 수 있는 기능으로, 정기적인 데이터 업데이트와 관리 작업을 처리하는 데 유용합니다.
+- 공간 데이터 타입: `Point`, `Polygon` 등
+- 공간 함수: `ST_Contains`, `ST_Distance` 등
 
-### 조회 로직
+### 기존 방식의 문제점 (BETWEEN 조건)
+``` sql
+SELECT *
+FROM restaurant
+WHERE latitude BETWEEN 37.560997 AND 37.568698
+AND longitude BETWEEN 126.994728 AND 127.006782;
+```
+- BETWEEN 조건을 활용하면 DB에 식당의 수가 1,000,000개가 존재한다면 이를 모두 검색하는 **FULL SCAN** 방식으로 식당 데이터가 늘어난다면 조회 성능 저하가 발생한다.
 
-1. **실시간 주식 정보 저장 및 갱신**
-  - 한국투자증권 웹소켓을 통해 서버가 실시간 주식 정보를 수신하여 Redis에 저장하고, 지속적으로 최신 상태로 갱신합니다.
+### Decimal Type -> Point Type
+- 기존의 latitude, longitude 두 개의 Decimal 타입 필드를 하나의 Point 타입 필드로 변경할 수 있습니다.
+- MySQL은 Point와 같은 공간 데이터 타입에서 공간 함수를 사용할 수 있습니다. **BETWEEN** 조건 대신 **공간 함수(ST_Contains)를 사용해 특정 범위 내 식당을 조회할 수 있습니다.
+- 공간 데이터 타입은 공간(SPATIAL) 인덱스를 적용해 FULL SCAN 방식 보다 조회 성능
 
-2. **사용자 실시간 주식 정보 조회**
-  - 사용자는 서버와 연결된 웹소켓을 통해 Redis에 저장된 최신 주식 정보를 실시간으로 조회할 수 있습니다.
-
-3. **데이터 일관성 유지**
-  - 주식 시장 종료 시각(15:30)에 Spring Scheduler를 사용하여 Redis에 저장된 모든 주식 정보를 MySQL DB에 업데이트함으로써, 데이터의 영속성과 일관성을 유지합니다.
-
-4. **캐시 미스 처리**
-  - 사용자가 특정 주식 정보를 조회할 때 Redis에 해당 정보가 없을 경우, MySQL DB에서 데이터를 조회하여 Redis에 저장하고 사용자에게 제공하여 조회 성능을 향상시킵니다.
+[자세한 내용](https://www.notion.so/MySQL-127dfffbb40780308ee3d29ef1d37906)
 
 ## 3. 고가용성 시스템 구축
 ![](https://i.imgur.com/JVGj9Pw.png)
@@ -471,18 +472,9 @@ spec:
   - RAG 기반 챗봇 제작
 
 ✔ 고민호
-  - Java 및 SpringBoot 기반의 Stock 서버 구축
-  - 한국투자증권 API·WebSocket 연결 및 주식 정보 조회 API 개발
-    - 주식 현재가, 등락률, 거래대금, 거래량
-    - 상위 10개 종목 정보 한투증 WebSocket 실시간 갱신
-    - 그 외 KOSPI 전 종목 정보 한투증 API + Spring Scheduler 1분 단위 갱신
-  - 한국투자증권 API 기반의 주식 카테고리 정보 조회 API 개발
-    - 카테고리별 현재가, 전일 대비, 등락률, 누적 거래 대금
-  - Spring Scheduler + Redis 기반 금일 실시간 체결가 차트
-  - FeignClient 기반 Stock&#8596;Member 서버 통신
-    - 주식 매수·매도 API 개발
-  - Kafka + Redis 기반 News&#8596;Member 서버 통신
-    - 금일 뉴스 첫 조회 시 사용자 포인트 증가 요청 로직 구현
+  - 지도 조회 API 개발
+  - MySQL 공간 인덱스 지도 조회 성능 개선
+  - 식당 리뷰 API 개발
 
 ✔ 손지석
   - MSA 아키텍쳐 설계 및 배포
