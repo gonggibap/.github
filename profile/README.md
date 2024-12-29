@@ -116,13 +116,10 @@
 ### Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React-Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=ReactQuery&logoColor=white)
-
-![React-Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Styled-Component](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### Infrastructure
 
@@ -368,17 +365,23 @@ spec:
 ```
 # 📚 프로젝트 산출물
 
-## 1. ERD
+## 1. 공기밥 서비스 (https://gonggibap.co.kr/)
+![사이트](https://github.com/user-attachments/assets/aff4de95-00f1-4123-bd0f-ce552f179832)
+
+## 2. 공기밥 익스텐션 (https://chromewebstore.google.com/detail/%EA%B3%B5%EA%B8%B0%EB%B0%A5-extension-%EB%A7%9B%EC%A7%91-%EA%B2%80%EC%83%89-%EC%84%9C%EB%B9%84%EC%8A%A4/poifnfdoponfeneednggfmdoabddncdk?hl=ko&utm_source=ext_sidebar)
+![익스텐션](https://github.com/user-attachments/assets/de5f4979-0598-4dfe-a616-62b534431aa1)
+
+## 3. ERD
 ![ERD](https://i.imgur.com/FmmsHJ2.png)
 
 # 👨‍👨‍👧‍👦 팀원 구성
 
-|       고민호(BackEnd)       |       박선홍(BackEnd)       |       손지석(Infra)        |       남보우(Infra)        |
+|       BackEnd       |       BackEnd       |       Infra        |       Infra        |
 |:------------------:|:-------------------:|:-----------------:|:------------------:|
 | <img src="https://avatars.githubusercontent.com/u/101318473?v=4" width=100px alt="고민호"/> | <img src="https://avatars.githubusercontent.com/u/62554639?v=4" width=100px alt="박선홍"/> | <img src="https://avatars.githubusercontent.com/u/105180696?v=4" width=100px alt="손지석"/> | <img src="https://avatars.githubusercontent.com/u/92447290?v=4" width=100px alt="남보우"/> |
 | [고민호](https://github.com/MinhoKK) | [박선홍](https://github.com/chestnut1717) | [손지석](https://github.com/sonjiseokk) | [남보우](https://github.com/Nbowow) |
 
-|       이명욱(FrontEnd)      |       임준희(FrontEnd)      |       박준엽(기획)         |
+|       FrontEnd      |       FrontEnd      |       기획         |
 |:------------------:|:-------------------:|:-----------------:|
 | <img src="https://avatars.githubusercontent.com/u/123948643?v=4" width=100px alt="이명욱"/> | <img src="https://avatars.githubusercontent.com/u/156316110?v=4" width=100px alt="임준희"/> | <img src="https://avatars.githubusercontent.com/u/91084695?v=4" width=100px alt="박준엽"/> |
 | [이명욱](https://github.com/LEEMYEONGUK) | [임준희](https://github.com/ljjunh) | [박준엽](https://github.com/JuneYub) |
