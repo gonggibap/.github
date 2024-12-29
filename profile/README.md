@@ -198,7 +198,7 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 ## 3. 고가용성 시스템 구축
 ![고가용성 시스템](https://i.imgur.com/JVGj9Pw.png)
 
-#### 구성 요소
+### 구성 요소
 1. **Route 53**
     - **역할**: 사용자 요청을 최초에 처리하는 DNS 서비스
     - **기능**: 트래픽을 WAF로 라우팅
@@ -216,7 +216,7 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
             - 장애 발생 시 대체 역할
         - **Aurora Database**:
             - 데이터 저장소로 Write 작업은 Primary, Read 작업은 Read Replica에서 처리
-#### 특징
+### 특징
 1. **고가용성**:
     - Auto Scaling Group과 Multi-AZ 구성을 통해 장애를 최소화
 2. **보안 강화**:
@@ -226,144 +226,57 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 4. **최적화**:
     - Read Replica를 활용하여 데이터베이스 성능 향상
 
-#### 트래픽 흐름
+### 트래픽 흐름
 1. 클라이언트 → **Route 53** → **WAF** → **ALB**
 2. ALB → **Private Subnet의 Backend/Extension**
 3. 데이터 요청 → **Aurora Database (Write: Primary, Read: Replica)**
-## 4. ✔ MSA 아키텍쳐
-### Spring 서버 및 DB를 기능별로 분리
 
-MSA란 `MicroService Architecture`의 약자로, 기존의 Monolithic Architecture의 한계를 벗어나 애플리케이션을 느슨하게 결합된 서비스의 모임으로 구조화하는 서비스 지향 아키텍처(SOA) 스타일의 일종인 소프트웨어 개발 기법입니다.
+## 4. 모니터링 시스템 구축
+작성예정
+## 5. 성과 및 팀 문화
+### 개발 플로우
+![](https://i.imgur.com/CJfkTue.png)
 
-기능을 크게 6가지로 분류하고, 서버와 데이터베이스를 각 기능에 맞게 분류하여 구현하였습니다.
+### 지속적인 홍보
+![](https://i.imgur.com/cyJXrl3.png)
+![](https://i.imgur.com/gHfqm9T.png)
+![](https://i.imgur.com/rjRdMGO.png)
 
-| 기능     | Server           | DB             |
-| ------ | ---------------- | -------------- |
-| 사용자    | Member Server    | Member DB      |
-| 주식     | Stock Server     | Stock DB       |
-| 뉴스     | News Server      | News DB        |
-| 뉴스 데이터 | News-Data Server | Hadoop         |
-| 인증     | Auth Server      | Redis          |
-| 챗봇     | News-AI Server   | AI DB & Hadoop |
+> 여러 홍보 수단을 사용해 해당 서비스의 프로모션을 진행한 모습
 
-### MSA 설계도
+### 사용자 트래픽 분석
 
-![](https://i.imgur.com/dW3dhTr.png)
-![](https://i.imgur.com/kh0ktLZ.png)
+![](https://i.imgur.com/nI3Ava8.png)
+![](https://i.imgur.com/cP7Qxl4.png)
+![](https://i.imgur.com/Jb0p6ob.png)
 
-저희는 `MSA` 를 통해 다음과 같은 장점을 가질 수 있었습니다.
+다양한 프로모션 이후에 실제 트래픽이 발생하여 MAU는 `330명`을 달성하였고, 재방문자 수는 `47명`을 달성하였습니다.
 
-1. 배포
-    - 서비스별 개별 배포가 가능합니다.
-    - 특정 서비스의 요구사항만을 반영하여, 빠르게 배포 가능합니다.
-    - 특히, 젠킨스와 쿠버네티스, Mattermost로 이어지는 배포 파이프라인을 구축하여 빠르고 간편한 배포가 수행되게 하였습니다.
-2. 확장
-    - 특정 서비스에 대한 확장성(scale-out)이 유리합니다.
-    - 클라우드 기반 서비스 사용에 적합합니다.
-    - 특히, 뉴스와 뉴스 데이터(하둡 기반) 서버를 분리하여 최신 뉴스 데이터와 관련된 기능들을 빠르게 처리할 수 있게 했습니다.
-3. 장애
-    - 일부 장애가 전체 서비스로 확장될 가능성이 적습니다.
-    - 부분적으로 발생하는 장애에 대한 격리가 수월합니다.
-    - 특히, 한국투자증권의 실시간 가격 데이터와 대용량의 뉴스 데이터를 한 서버에서 처리할 경우 장애가 발생할 확률이 높은데, 이를 분리하여 처리했습니다.
-4. 그 외
-    - 새로운 기술을 적용하기 유연합니다.
-    - 각각의 서비스에 대한 구조 파악 및 분석이 모놀리식 구조에 비해 쉽습니다.
+![](https://i.imgur.com/LaGU4CO.png)
+![](https://i.imgur.com/EOnZnet.png)
 
-### Feign Client를 이용한 서버 간 통신
 
-MSA를 적용함으로써 서버들이 기능별로 분리됨에 따라 각 서버는 자신이 관할하는 DB에만 직접 접근할 수 있게 되었습니다. 그로 인해 자신이 관할하지 않는 DB의 데이터가 필요할 경우, 해당 DB를 담당하고 있는 서버에게 데이터를 요청해야합니다.  
-저희는 서버 간 통신을 하기 위해 `Feign Client`를 사용하여 기존의 RestTemplate 보다 Rest API를 사용하는데 필요한 설정을 간소화하였고, 이로 인해 비지니스 로직에 더 집중할 수 있었습니다.
+또한, 해당 트래픽을 분석한 결과, 모바일의 비중이 높은 것을 확인하여 모바일 UI를 출시하는 등 계속해서 사용자 경험을 향상시켰습니다.
+### 기술 세미나
 
-- Feign - Netflix 에서 개발된 Http client binder
-- 웹 서비스 클라이언트를 보다 쉽게 작성하여 사용
-- interface 를 작성하고 annotation 을 선언하여 사용
-- `@EnableFeignClients` 을 통해 `@FeignClient`의 구현체를 구현
-### NGINX Ingrees Controller
+![](https://i.imgur.com/vQXYnvy.jpeg)
 
-저희는 API Gateway Server를 NGINX로 활용하였습니다.
+저희 팀은 **함께 성장**하는 문화를 지향하여 프로젝트를 진행했습니다.
+프로젝트를 진행하는 동안 배운 기술과 관심사를 **서로 공유**하며 개인의 성장 뿐만이 아니라 **팀의 성장을 유도**하였습니다.
 
-다음과 같은 규칙으로 URL 기반 라우팅을 수행하였습니다.
-- 인증이 필요한 요청 URL의 경우 Ingress.yaml 에 정의
-- 인증이 필요하지 않은 요청 URL의 경우 front-inress.yaml 에 정의
+- 다양한 주제를 다루는 **기술 세미나**를 격주마다 진행하여 팀원 간의 기술적 이해도를 향상시켰습니다.
+- **질문과 토론**을 통해 서로 다른 포지션의 팀원들도 **시야를 확장**할 수 있었고, 함께 성장하는 발판이 되었습니다.
 
-![](https://i.imgur.com/iUscTZW.png)
+**세미나 주제**
+- 자바의 멀티쓰레드
+- 데이터베이스 샤딩
+- 공간 인덱싱
+- RAG 성능 향상 기법
+- 컨테이너 가상화 기술과 도커
+- MSA vs Monolithic 아키텍처
 
-추가적으로 다음과 같은 기능들도 적용하였습니다.
-- nginx ingress의 auth-url 옵션을 통해 auth 처리 후 라우팅
-- tls 옵션을 통해 HTTPS 적용
-- API Gateway용 CORS 헤더를 추가
+[자료 링크]()
 
-``` yaml
-apiVersion: networking.k8s.io/v1  
-kind: Ingress  
-metadata:  
-  name: my-app-ingress  
-  namespace: default  
-  annotations:  
-    nginx.ingress.kubernetes.io/auth-url: "http://${인증_URL}/api/auth/verify"  
-    nginx.ingress.kubernetes.io/use-regex: "true"  
-    nginx.ingress.kubernetes.io/enable-cors: "true"  
-    nginx.ingress.kubernetes.io/cors-allow-origin: "http://localhost:5173, https://newstock.info"  
-    nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, DELETE, OPTIONS"  
-    nginx.ingress.kubernetes.io/cors-allow-headers: "Authorization, Content-Type"  
-    cert-manager.io/cluster-issuer: "letsencrypt-prod"  
-    nginx.ingress.kubernetes.io/ssl-redirect: "true"  
-spec:  
-  tls:  
-    - hosts:  
-        - newstock.info  
-      secretName: tls-secret   # 앞서 생성한 시크릿 이름  
-  ingressClassName: nginx
-```
-
-## 5. Kubernetes
-
-**쿠버네티스 아키텍쳐**
-
-![](https://i.imgur.com/2xiuQm6.png)
-
-저희는 MSA 서버들을 쉽게 관리 및 배포하기 위해 Kubernetes를 활용했습니다.
-- **Member Service** : 회원 정보와 포인트 관련 비즈니스 로직 수행
-- **Auth Service** : OAuth 관련 비즈니스 로직 수행
-- **Stock Service** : 모의투자 관련 비즈니스 로직 수행
-- **News Service** : 경제 뉴스와 관련된 비즈니스 로직 수행
-- **AI Service** : LLM 챗봇과 차트 유사도에 관련된 비즈니스 로직 수행
-- **Kafka Service** : SAGA (MSA의 트랜잭션 복구 패턴) 구조와 관련된 이벤트 처리 로직 수행
-- **Redis Service** : 실시간 주가 정보와 회원의 Refresh Token(JWT) 저장 및 처리 로직 수행
-
-### 오토 스케일링
-- Deployment에서 Pod의 CPU 초기 사용량 및 오토 스케일링 시점을 기재합니다.
-  
-``` yaml
-spec:
-  containers:
-  - name: server
-    image: server
-    resources:
-      requests:
-        cpu: "200m"
-      limits:
-        cpu: "500m"
-```
-
-- 지정해둔 CPU 사용량을 초과하면 Pod 수를 증가시켜 부하를 분산 시킵니다.
-
-``` yaml
-spec: 
-  scaleTargetRef: 
-    apiVersion: apps/v1 
-    kind: Deployment 
-    name: nginx-deployment 
-  minReplicas: 1 # 최소 Pod 수 
-  maxReplicas: 10 # 최대 Pod 수 
-  metrics: 
-  - type: Resource 
-    resource: 
-      name: cpu 
-      target: 
-        type: Utilization 
-        averageUtilization: 50 # 평균 CPU 사용률 50%를 초과하면 스케일링
-```
 # 📚 프로젝트 산출물
 
 ## 1. 🍚 공기밥 서비스
