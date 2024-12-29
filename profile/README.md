@@ -365,10 +365,10 @@ spec:
 ```
 # 📚 프로젝트 산출물
 
-## 1. 공기밥 서비스 (https://gonggibap.co.kr/)
+## 1. 공기밥 서비스 [사이트 방문하기](https://gonggibap.co.kr/)
 ![사이트](https://github.com/user-attachments/assets/aff4de95-00f1-4123-bd0f-ce552f179832)
 
-## 2. 공기밥 익스텐션 (https://chromewebstore.google.com/detail/%EA%B3%B5%EA%B8%B0%EB%B0%A5-extension-%EB%A7%9B%EC%A7%91-%EA%B2%80%EC%83%89-%EC%84%9C%EB%B9%84%EC%8A%A4/poifnfdoponfeneednggfmdoabddncdk?hl=ko&utm_source=ext_sidebar)
+## 2. 공기밥 익스텐션 [익스텐션 설치하기](https://chromewebstore.google.com/detail/%EA%B3%B5%EA%B8%B0%EB%B0%A5-extension-%EB%A7%9B%EC%A7%91-%EA%B2%80%EC%83%89-%EC%84%9C%EB%B9%84%EC%8A%A4/poifnfdoponfeneednggfmdoabddncdk?hl=ko&utm_source=ext_sidebar)
 ![익스텐션](https://github.com/user-attachments/assets/de5f4979-0598-4dfe-a616-62b534431aa1)
 
 ## 3. ERD
