@@ -245,7 +245,7 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 - 예시 사이트 : [서울특별시 중구 업무추진비](https://www.junggu.seoul.kr/content.do?cmsid=15383&exclude=Y)
 
 ### 2. PDF, Excel파일 등 파일 전처리
-- 업무추진비에서 수집되는 대부분의 데이터는 pdf, Excel파일 형식이어서 python 라이브러리인 `pandas` 및 `pdfplumber`를 활용하여 excel파일 및 pdf파일을 각각 csv파일로 형식 변환
+- 업무추진비에서 수집되는 대부분의 데이터는 pdf, Excel파일 형식이어서 python 라이브러리인 `pandas` 및 `pdfplumber`를 활용하여 excel파일 및 pdf파일을 각각 csv파일로 형식 변환
 
 ### 3. OpenAI 활용 전처리
 - 많은 수의 식당을 일일히 수작업으로 하기는 현실적으로 힘드므로 OpenAI API를 활용해 전처리 자동화
