@@ -238,9 +238,30 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 2. ALB → **Private Subnet의 Backend/Extension**
 3. 데이터 요청 → **Aurora Database (Write: Primary, Read: Replica)**
 
-## 4. 모니터링 시스템 구축
-작성예정
-## 5. 성과 및 팀 문화
+## 4. 데이터 수집   
+다음과 같은 흐름으로 업무추진비 데이터를 수집
+### 1. 서울, 광주 30개 구 데이터 수집
+- 각각의 구청에서 업무추진비가 공개되어 있음
+- 예시 사이트 : [서울특별시 중구 업무추진비](https://www.junggu.seoul.kr/content.do?cmsid=15383&exclude=Y)
+
+### 2. PDF, Excel파일 등 파일 전처리
+- 업무추진비에서 수집되는 대부분의 데이터는 pdf, Excel파일 형식이어서 python 라이브러리인 `pandas` 및 `pdfplumber`를 활용하여 excel파일 및 pdf파일을 각각 csv파일로 형식 변환
+
+### 3. OpenAI 활용 전처리
+- 많은 수의 식당을 일일히 수작업으로 하기는 현실적으로 힘드므로 OpenAI API를 활용해 전처리 자동화
+- 사용 모델 : **GPT 4o-mini**
+
+### 4. Kakao Map API 활용 추가 데이터 수집
+- 식당 정보(업종, 전화번호 등), 위경도 등 추가적인 데이터를 수집하기 위해 Kakao Map API 활용
+
+### 5. 데이터 적재
+- 최종적으로 식당 21,150곳, 사용내역 163,736건 수집
+
+## 5. Extension 개발
+- 공기밥 Extension은 공기밥 서비스에서 제공하는 맛집 정보를 카카오맵에서 조회하기 편하게 익스텐션 개발
+
+
+## 6. 성과 및 팀 문화
 ### 개발 플로우
 ![](https://i.imgur.com/CJfkTue.png)
 
