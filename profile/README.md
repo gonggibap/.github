@@ -242,7 +242,8 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 ![](https://i.imgur.com/gHfqm9T.png)
 ![](https://i.imgur.com/rjRdMGO.png)
 
-> 여러 홍보 수단을 사용해 해당 서비스의 프로모션을 진행한 모습
+> 여러 홍보 수단을 사용해 해당 서비스의 프로모션을 진행한 모습 </br>
+> 실제로 링크드인 게시물 게시 이후에는 트래픽이 꽤 많이 발생하였음
 
 ### 사용자 트래픽 분석
 
@@ -250,13 +251,16 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 ![](https://i.imgur.com/cP7Qxl4.png)
 ![](https://i.imgur.com/Jb0p6ob.png)
 
-다양한 프로모션 이후에 실제 트래픽이 발생하여 MAU는 `330명`을 달성하였고, 재방문자 수는 `47명`을 달성하였습니다.
+> 다양한 프로모션 이후에 실제 트래픽이 발생하여 </br>
+> MAU는 `330명`을 달성하였으며, 재방문자 수는 `47명`을 달성하였음
 
 ![](https://i.imgur.com/LaGU4CO.png)
 ![](https://i.imgur.com/EOnZnet.png)
 
 
-또한, 해당 트래픽을 분석한 결과, 모바일의 비중이 높은 것을 확인하여 모바일 UI를 출시하는 등 계속해서 사용자 경험을 향상시켰습니다.
+> 해당 트래픽을 분석한 결과 모바일의 비중이 높은 것을 확인하였음 </br>
+> 이후 모바일 UI를 출시하는 등 계속해서 사용자 경험을 향상시켰음
+
 ### 기술 세미나
 
 ![](https://i.imgur.com/vQXYnvy.jpeg)
