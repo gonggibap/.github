@@ -8,7 +8,7 @@
 
 (삼성 청년SW아카데미 자율 프로젝트 **🏆우수상🏆**)
 
-**배포 주소** : [공기밥](https://gonggibap.co.kr)
+**배포 주소** : [https://gonggibap.co.kr](https://gonggibap.co.kr)
 
 ___
 
@@ -259,6 +259,11 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 
 ## 5. Extension 개발
 - 공기밥 Extension은 공기밥 서비스에서 제공하는 맛집 정보를 카카오맵에서 조회하기 편하게 익스텐션 개발
+- 카카오맵에서 맛집 검색 시 나오는 공기밥 이모티콘을 클릭하거나 맛집 상세페이지에서 팝업으로 등장하는 `공기밥에서 방문 횟수 확인하기` 클릭 시 공기밥 서비스로 접속 가능하여 서비스의 접근성 향상 및 유입 유저수 증가
+<img width="1582" alt="image" src="https://github.com/user-attachments/assets/405af9a7-6cd6-4702-99c4-83512bf404f4" />
+<img width="1582" alt="image" src="https://github.com/user-attachments/assets/33b65fe5-bcc8-4c24-a698-7a7a136e392b" />
+<img width="1582" alt="image" src="https://github.com/user-attachments/assets/54dd45d4-bff8-4a1b-84b0-eddb29104721" />
+
 
 
 ## 6. 성과 및 팀 문화
