@@ -374,7 +374,7 @@ spec:
 
 
 
-## 3. ERD
+## 2. ERD
 ![ERD](https://i.imgur.com/FmmsHJ2.png)
 
 # 👨‍👨‍👧‍👦 팀원 구성
