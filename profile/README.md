@@ -196,7 +196,7 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 [자세한 내용](https://www.notion.so/MySQL-127dfffbb40780308ee3d29ef1d37906)
 
 ## 3. 고가용성 시스템 구축
-![](https://i.imgur.com/JVGj9Pw.png)
+<img src="https://i.imgur.com/JVGj9Pw.png" alt="고가용성 시스템" width="100%" />
 #### 구성 요소
 1. **Route 53**
     - **역할**: 사용자 요청을 최초에 처리하는 DNS 서비스
