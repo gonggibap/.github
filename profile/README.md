@@ -81,76 +81,33 @@
  <summary>📢 페이지 상세설명</summary>
  <div markdonw="1">
 
-![슬라이드1](https://github.com/user-attachments/assets/1df70413-bf55-41b4-b995-793408a4c348)
-![슬라이드2](https://github.com/user-attachments/assets/56306811-0a1b-47a8-9a35-7913e5a43ad4)
-![슬라이드3](https://github.com/user-attachments/assets/94f80a2e-9627-4f34-b4e1-8e28945e64ea)
-![슬라이드4](https://github.com/user-attachments/assets/197f1d85-b89a-41d8-adce-ef2b6d68bd69)
-![슬라이드5](https://github.com/user-attachments/assets/43cd32f5-0853-4211-a2f2-e8275ca466d4)
-![슬라이드6](https://github.com/user-attachments/assets/022e74e8-c8b7-4559-8375-e2cd27ab4534)
-![슬라이드7](https://github.com/user-attachments/assets/0bbedc6b-24dc-435c-8c51-5588314e1e95)
-![슬라이드8](https://github.com/user-attachments/assets/b2367e93-dde8-406b-a43c-db00aca7b143)
-![슬라이드9](https://github.com/user-attachments/assets/240c4188-bc96-406e-9248-bdb1e5ece431)
-![슬라이드10](https://github.com/user-attachments/assets/d1396b0b-90f2-4247-b199-f6e6cc3bf2ba)
-![슬라이드11](https://github.com/user-attachments/assets/5ed9f75f-67ae-4f54-9d04-98075d9bf8ab)
-![슬라이드12](https://github.com/user-attachments/assets/6e1f33d1-0302-4598-9fa8-b083f8db8a4e)
-![슬라이드13](https://github.com/user-attachments/assets/7d045e7c-9cf8-4e8a-ac78-bdee84fb9f6e)
-![슬라이드14](https://github.com/user-attachments/assets/8e7c0994-6c88-4ada-a926-b8cda1d87713)
-![슬라이드15](https://github.com/user-attachments/assets/a75a9b8b-4d5c-46e4-b1ff-04568ae3c2ea)
-![슬라이드16](https://github.com/user-attachments/assets/b1e6db4c-1c8b-46d2-a284-8a0490da9291)
-![슬라이드17](https://github.com/user-attachments/assets/80de749f-41ad-4822-98b4-6c05a7d7ff5e)
-![슬라이드18](https://github.com/user-attachments/assets/8716f985-b5db-470f-b459-0139caeeebaa)
-![슬라이드19](https://github.com/user-attachments/assets/db4655cb-3ed7-4538-8b20-5c4e142b034c)
-![슬라이드20](https://github.com/user-attachments/assets/28639425-096d-474a-a374-edd057b93cf0)
-![슬라이드21](https://github.com/user-attachments/assets/bfc7a4db-dc16-4e12-844b-68853f908763)
+![슬라이드1](https://github.com/user-attachments/assets/fc6ebd49-f461-48ce-8750-db2bda70a40b)
+![슬라이드2](https://github.com/user-attachments/assets/d882600f-bb70-4f97-90ce-96d6e62b7794)
+![슬라이드3](https://github.com/user-attachments/assets/922690e6-c7be-4f8a-ab81-a37d67305ee8)
+![슬라이드4](https://github.com/user-attachments/assets/5cad931f-3115-4fa4-8753-94f615333e28)
+![슬라이드5](https://github.com/user-attachments/assets/69ee9028-3bd6-48ab-a1bc-16b6ba5f8aaa)
+![슬라이드6](https://github.com/user-attachments/assets/f64e51b5-8f2c-48af-86cc-156a350cbf3e)
+![슬라이드7](https://github.com/user-attachments/assets/0eba6d5f-6e26-401e-a676-b752af9a7f9b)
+![슬라이드8](https://github.com/user-attachments/assets/19cb5b92-8877-4e70-99c5-e531426ce0c0)
+![슬라이드9](https://github.com/user-attachments/assets/874e4e5b-1256-4439-ac33-3ba94beabf7c)
+![슬라이드10](https://github.com/user-attachments/assets/7179020d-8075-43c4-8907-91167c1f7aa0)
+![슬라이드11](https://github.com/user-attachments/assets/717ab1fa-40a4-4d45-841a-5f4bef09004b)
+![슬라이드12](https://github.com/user-attachments/assets/a04a1054-d71d-47c3-a38e-2ea5bd6bfff1)
+![슬라이드13](https://github.com/user-attachments/assets/c08ae48a-c39d-4b1c-8d3c-e434155eb124)
+![슬라이드14](https://github.com/user-attachments/assets/f9fb139a-9725-4b20-ab42-a69a742e7a7d)
+![슬라이드15](https://github.com/user-attachments/assets/bd2a5a1b-b86d-469e-8d14-1793f8d3b362)
+![슬라이드16](https://github.com/user-attachments/assets/d1e76deb-235b-447d-b254-dbcdfb8b539c)
+![슬라이드17](https://github.com/user-attachments/assets/fd55a949-06c4-4944-b0fb-4dc392247f5b)
+![슬라이드18](https://github.com/user-attachments/assets/c5d3a556-b32a-48b7-89b2-c846d6fa3395)
+![슬라이드19](https://github.com/user-attachments/assets/ce9a66d9-1fa9-4cf9-9ebe-6902ee3db5ef)
+![슬라이드20](https://github.com/user-attachments/assets/9404eaaa-dc3e-4500-aed4-b435826671a2)
+![슬라이드21](https://github.com/user-attachments/assets/7d8ca7b5-ecb7-41db-a5b4-2570a1d772f3)
+![슬라이드22](https://github.com/user-attachments/assets/c65ba35f-4beb-446a-9c44-25d6dd04f502)
+![슬라이드23](https://github.com/user-attachments/assets/c178b97f-f69d-4fef-a5a1-ef022c82c0a5)
+
 
  </div>
 </details>
-
-<details>
- <summary>📢 기능 GIF</summary>
- <div markdonw="1">
-
-### 뉴스
-![뉴스 조회](https://github.com/user-attachments/assets/693a2d11-7893-432f-b0de-b64fdfebde7d)
-### 3줄 요약
-![뉴스 3줄 요약](https://github.com/user-attachments/assets/606c9b8f-2c2d-4e93-94a5-d0cbc04fd307)
-### 실시간 주식
-![실시간 주식](https://github.com/user-attachments/assets/47b83be1-db0e-4f6a-a233-98dba04666b2)
-### 모의투자
-![모의투자 시연](https://github.com/user-attachments/assets/6ba45a95-e09b-43e1-9752-925b71df52cf)
-### 차트 분석
-![차트 분석](https://github.com/user-attachments/assets/3bb6bb4b-f9fb-4464-82b1-500fcdde59e8)
-### 유사도 검색
-![유사도 검색](https://github.com/user-attachments/assets/c7163cad-a366-4dcd-bdd5-9a685093d8c8)
-
- </div>
-</details>
-
-<details>
- <summary>📢 화면 소개</summary>
- <div markdonw="1">
-
-### 뉴스
-https://github.com/user-attachments/assets/db779ecd-58cf-4025-bce6-e278db24c51c
-
-### 주식
-https://github.com/user-attachments/assets/85e95ce5-fd05-4e6d-b0d1-77e6d3392a21
-
-### 주식 기능
-https://github.com/user-attachments/assets/22e0ecf8-2faa-436d-af34-8a998cb39291
-
-### AI 챗봇
-https://github.com/user-attachments/assets/49e259c5-ca4c-4a81-8940-a5d10533b41e
-
-### 온보딩
-https://github.com/user-attachments/assets/c850a5a7-e61d-4873-b734-9c216a1eff65
-
-### 다크모드
-https://github.com/user-attachments/assets/8b02bdad-dfdf-4164-9f63-8914ff309622
-
- </div>
-</details>
-
 
 
 # 🛠 기술 스택
@@ -411,106 +368,36 @@ spec:
 ```
 # 📚 프로젝트 산출물
 
-## 1. Figma(https://url.kr/gmat7b)
-![NewStock-프로토타입](https://github.com/user-attachments/assets/2211470d-c124-4b3d-869f-d0a6c329edb9)
-
-## 2. ERD
-![](https://i.imgur.com/FmmsHJ2.png)
-
-## 3. 요구사항 명세서
-![요구사항명세서](https://github.com/user-attachments/assets/8b1fd843-e23b-4618-980d-ba6be71e4997)
-
+## 1. ERD
+![ERD](https://i.imgur.com/FmmsHJ2.png)
 
 
 # 👨‍👨‍👧‍👦 팀원 구성
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <img src="Picture/sunhong.png" alt="DATA/BE 팀장 : 박선홍" width="100px"/>
-        <br />
-        <sub><b>BE/DATA 팀장 : 박선홍</b></sub>
-      </td>
-      <td align="center">
-        <img src="Picture/minho.png" alt="BE 부팀장 : 고민호" width="100px"/>
-        <br />
-        <sub><b>BE LEADER 팀원 : 고민호</b></sub>
-      </td>
-      <td align="center">
-        <img src="Picture/jisuck.png" alt="BE 팀원 : 손지석" width="100px"/>
-        <br />
-        <sub><b>BE/INFRA 팀원 : 손지석</b></sub>
-      </td>
-      <td align="center">
-        <img src="Picture/my.png" alt="FE 팀원 : 이명욱" width="100px"/>
-        <br />
-        <sub><b>FE LEADER 팀원 : 이명욱</b></sub>
-      </td>
-      <td align="center">
-        <img src="Picture/jj.png" alt="FE 팀원 : 이정준" width="100px"/>
-        <br />
-        <sub><b>FE 팀원 : 이정준</b></sub>
-      </td>
-      <td align="center">
-        <img src="Picture/jh.png" alt="FE 팀원 : 이주호" width="100px"/>
-        <br />
-        <sub><b>FE 팀원 : 이주호</b></sub>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<hr/>
+### BackEnd
+|       고민호       |       박선홍       |
+|:------------------:|:-----------------:|
+| <img src="https://avatars.githubusercontent.com/u/101318473?v=4" width=100px alt="고민호"/> | <img src="https://avatars.githubusercontent.com/u/62554639?v=4" width=100px alt="박선홍"/> |
+| [고민호](https://github.com/MinhoKK) | [박선홍](https://github.com/chestnut1717) |
 
-✔ 박선홍
-  - Airflow를 활용한 데이터 수집, 전처리 워크플로우 제작
-  - 경제 뉴스 스크레이핑 및 수집, 전처리
-  - 수집한 경제 뉴스 HBase 및 ElasticSearch에 적재
-  - 데이터 전처리 시 광고 필터링 모델 transfer-learning
-  - Hadoop Ecosystem 기반 fully-distributed system 인프라 구축
-  - 뉴스 3줄 요약, 유사 차트 검색, 시황 요약 서비스 및 API 개발
-  - RAG 기반 챗봇 제작
+### Infra
+|       손지석       |       남보우       |
+|:------------------:|:-----------------:|
+| <img src="https://avatars.githubusercontent.com/u/105180696?v=4" width=100px alt="손지석"/> | <img src="https://avatars.githubusercontent.com/u/92447290?v=4" width=100px alt="남보우"/> |
+| [손지석](https://github.com/sonjiseokk) | [남보우](https://github.com/Nbowow) |
 
-✔ 고민호
-  - 지도 조회 API 개발
-  - MySQL 공간 인덱스 지도 조회 성능 개선
-  - 식당 리뷰 API 개발
+### FrontEnd
+|       이명욱       |       임준희       |
+|:------------------:|:-----------------:|
+| <img src="https://avatars.githubusercontent.com/u/123948643?v=4" width=100px alt="이명욱"/> | <img src="https://avatars.githubusercontent.com/u/156316110?v=4" width=100px alt="임준희"/> |
+| [이명욱](https://github.com/LEEMYEONGUK) | [임준희](https://github.com/ljjunh) |
 
-✔ 손지석
-  - MSA 아키텍쳐 설계 및 배포
-  - k8s 아키텍쳐 설계 및 구현
-  - HBase 및 Apache Phoenix 기반의 뉴스데이터 서버 구축
-  - Jenkins, k8s를 통한 자동 배포 파이프라인 구축
-  - JPA 및 MySQL 기반의 [뉴스, 관심 뉴스, 뉴스 스크랩] 서버 구축
-  - Java 및 Springboot 기반의 Member 서버 구축
-  - OAuth 기반의 Auth 서버 구축 및 로그인 로직 구현
-  
-✔ 이명욱
-  - 전체 페이지 스켈레톤 UI 구현 및 리액트 쿼리를 활용한 응답 데이터 캐싱으로 사용자 경험 향상
-  - styled componet를 활용한 라이트, 다크 모드 구현
-  - 주가 변화에 따른 주식 차트 시각화(실시간, 월봉 캔들 차트)
-  - 모의 주식 매도, 매수 기능 API 연결 및 구현
-  - 주식 차트 분석, 주식 차트 유사도 검색, 뉴스 요약하기 기능 API 연결 및 구현
-  - 주식 관련 페이지 구현 (전체 종목 조회 및 검색 기능, 분야별 주식 조회, 주식 종목 상세페이지)
-  - 종목 뉴스와 관련 주식 종목 매핑 및 주식 상세 페이지 이동 기능 연결
-  - 로그인 기능 연결 및 zustand를 통한 로그인/로그아웃 유저 상태 관리
-  - ESLint, Prettier 설정 등 프론트 개발 환경 세팅
-  - Figma를 활용한 와이어프레임 및 디자인 구성
+### 기획
+|       박준엽       |
+|:------------------:|
+| <img src="https://avatars.githubusercontent.com/u/91084695?v=4" width=100px alt="박준엽"/> |
+| [박준엽](https://github.com/JuneYub) |
 
-✔ 이정준
-  - 뉴스 메인 페이지 UI 및 API 연결
-  - 시황/종목 뉴스 페이지 UI 및 API 연결
-  - AI 챗봇 UI 구현
-  - 뉴스 북마크 UI 및 API 연결
-  - 뉴스 스크랩 조회, 작성, 수정, 삭제 관련 UI 및 API 연결
-
-✔ 이주호
-  - 주식 마이페이지 UI 및 API 연결
-  - LeftNavBar UI 구현
-  - (RightNav)보유 주식, 거래내역, 관심 종목, 관심 뉴스, 주식 랭킹 API 연결
-  - 사용자 포인트 웹소켓 연결
-  - BoardingPage UI 구현
-  - AI 챗봇 API 연결
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" width="100%" >
