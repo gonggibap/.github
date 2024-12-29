@@ -170,7 +170,7 @@
 ![](https://i.imgur.com/1pffjb5.png)
 
 ## 2. 공간 인덱싱 성능 조회
-<img width="695" alt="공간데이터타입" src="https://github.com/user-attachments/assets/5959e7d9-0bfa-4830-82ea-0a4771d8b96b" />
+<img width="100%" alt="공간데이터타입" src="https://github.com/user-attachments/assets/5959e7d9-0bfa-4830-82ea-0a4771d8b96b" />
 
 ### 공간 인덱스란?
 > 공간 데이터는 **위치 정보**를 저장할 수 있는 데이터 타입입니다.  
