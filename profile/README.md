@@ -288,10 +288,6 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 ![](https://i.imgur.com/nI3Ava8.png)
 ![](https://i.imgur.com/cP7Qxl4.png)
 ![](https://i.imgur.com/Jb0p6ob.png)
-<div style="display: flex; gap: 10px;">
-  <img src="https://i.imgur.com/cP7Qxl4.png" width="70%" />
-  <img src="https://i.imgur.com/Jb0p6ob.png" width="30%" /> 
-</div>
 
 > 다양한 프로모션 이후에 실제 트래픽이 발생하여 </br>
 > MAU는 `330명`을 달성하였으며, 재방문자 수는 `47명`을 달성하였음
