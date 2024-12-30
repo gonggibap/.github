@@ -260,15 +260,14 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 ## 5. Extension 개발
 - 공기밥 Extension은 공기밥 서비스에서 제공하는 맛집 정보를 카카오맵에서 조회하기 편하게 익스텐션 개발
 - 카카오맵에서 맛집 검색 시 나오는 공기밥 이모티콘을 클릭하거나 맛집 상세페이지에서 팝업으로 등장하는 `공기밥에서 방문 횟수 확인하기` 클릭 시 공기밥 서비스로 접속 가능하여 서비스의 접근성 향상 및 유입 유저수 증가   
-	
-	1. 카카오맵 검색 화면
-	![전체-on](https://github.com/user-attachments/assets/3455147e-d08e-4a0c-be72-00792c3680dc)
+1. 카카오맵 검색 화면
+![전체-on](https://github.com/user-attachments/assets/3455147e-d08e-4a0c-be72-00792c3680dc)
 
-	2. 카카오맵 음식점 상세페이지 화면
-	![전체](https://github.com/user-attachments/assets/ba1c3178-3d85-4530-b505-6ce59609f51e)
+2. 카카오맵 음식점 상세페이지 화면
+![전체](https://github.com/user-attachments/assets/ba1c3178-3d85-4530-b505-6ce59609f51e)
 
-	3. 공기밥 서비스 유입 화면
-	![서비스유입](https://github.com/user-attachments/assets/ce47120c-c98c-4a00-a05f-6162abc8f102)
+3. 공기밥 서비스 유입 화면
+![서비스유입](https://github.com/user-attachments/assets/ce47120c-c98c-4a00-a05f-6162abc8f102)
 
 ## 6. 성과 및 팀 문화
 ### 개발 플로우
