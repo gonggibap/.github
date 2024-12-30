@@ -277,7 +277,6 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 
 ### 지속적인 홍보
 ![프로모션](https://github.com/user-attachments/assets/2331ed45-01fd-49aa-81c2-16622e5893ef)
-e40-4d76-9499-8c3da6605510)
 ![프로모션 예시](https://github.com/user-attachments/assets/68f61a75-addb-40cc-904f-9337c866a028)
 ![모니터링](https://github.com/user-attachments/assets/812e62cf-c257-4754-be3a-3de15540bc70)
 
@@ -290,15 +289,15 @@ e40-4d76-9499-8c3da6605510)
 ![](https://i.imgur.com/cP7Qxl4.png)
 ![](https://i.imgur.com/Jb0p6ob.png)
 <div style="display: flex; gap: 10px;">
-  <img src="https://i.imgur.com/cP7Qxl4.png" />
-  <img src="https://i.imgur.com/Jb0p6ob.png" /> 
+  <img src="https://i.imgur.com/cP7Qxl4.png" width="70%" />
+  <img src="https://i.imgur.com/Jb0p6ob.png" width="30%" /> 
 </div>
 
 > 다양한 프로모션 이후에 실제 트래픽이 발생하여 </br>
 > MAU는 `330명`을 달성하였으며, 재방문자 수는 `47명`을 달성하였음
 
 ![사용자환경](https://github.com/user-attachments/assets/d5cf9b5a-ec88-4004-b88c-f68db34e7a3c)
-![모바일환경 개선](https://github.com/user-attachments/assets/a8978ba3-2
+![모바일환경 개선](https://github.com/user-attachments/assets/a8978ba3-2e40-4d76-9499-8c3da6605510)
 
 
 > 해당 트래픽을 분석한 결과 모바일의 비중이 높은 것을 확인하였음 </br>
