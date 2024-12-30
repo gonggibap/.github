@@ -264,7 +264,7 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 1. 카카오맵 검색 화면
 <img width="1582" alt="extension1" src="https://github.com/user-attachments/assets/41c6dafb-e000-4a5c-ac82-fca3d641e772" />
 
-2. 카카오톡 상세페이지 화면
+2. 카카오맵 음식점 상세페이지 화면
 <img width="1582" alt="extension2" src="https://github.com/user-attachments/assets/48faef2d-d99b-4ac9-82f6-5b6005b095da" />
 
 3. 공기밥 서비스 유입 화면
@@ -273,12 +273,13 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 
 ## 6. 성과 및 팀 문화
 ### 개발 플로우
-![](https://i.imgur.com/CJfkTue.png)
+![개발 플로우](https://github.com/user-attachments/assets/6594e001-620e-4218-a374-d2fda1780f91)
 
 ### 지속적인 홍보
-![](https://i.imgur.com/cyJXrl3.png)
-![](https://i.imgur.com/gHfqm9T.png)
-![](https://i.imgur.com/rjRdMGO.png)
+![프로모션](https://github.com/user-attachments/assets/2331ed45-01fd-49aa-81c2-16622e5893ef)
+e40-4d76-9499-8c3da6605510)
+![프로모션 예시](https://github.com/user-attachments/assets/68f61a75-addb-40cc-904f-9337c866a028)
+![모니터링](https://github.com/user-attachments/assets/812e62cf-c257-4754-be3a-3de15540bc70)
 
 > 여러 홍보 수단을 사용해 해당 서비스의 프로모션을 진행한 모습 </br>
 > 실제로 링크드인 게시물 게시 이후에는 트래픽이 꽤 많이 발생하였음
@@ -288,12 +289,16 @@ AND longitude BETWEEN 126.994728 AND 127.006782;
 ![](https://i.imgur.com/nI3Ava8.png)
 ![](https://i.imgur.com/cP7Qxl4.png)
 ![](https://i.imgur.com/Jb0p6ob.png)
+<div style="display: flex; gap: 10px;">
+  <img src="https://i.imgur.com/cP7Qxl4.png" />
+  <img src="https://i.imgur.com/Jb0p6ob.png" /> 
+</div>
 
 > 다양한 프로모션 이후에 실제 트래픽이 발생하여 </br>
 > MAU는 `330명`을 달성하였으며, 재방문자 수는 `47명`을 달성하였음
 
-![](https://i.imgur.com/LaGU4CO.png)
-![](https://i.imgur.com/EOnZnet.png)
+![사용자환경](https://github.com/user-attachments/assets/d5cf9b5a-ec88-4004-b88c-f68db34e7a3c)
+![모바일환경 개선](https://github.com/user-attachments/assets/a8978ba3-2
 
 
 > 해당 트래픽을 분석한 결과 모바일의 비중이 높은 것을 확인하였음 </br>
